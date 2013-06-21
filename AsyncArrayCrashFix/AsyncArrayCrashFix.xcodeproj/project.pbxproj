@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4E91E6217741F4E0063E266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E91E6117741F4E0063E266 /* Foundation.framework */; };
+		C4E91E6517741F4E0063E266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E91E6417741F4E0063E266 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4E91E5C17741F4E0063E266 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C4E91E5E17741F4E0063E266 /* AsyncArrayCrashFix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AsyncArrayCrashFix; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E91E6117741F4E0063E266 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4E91E6417741F4E0063E266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E91E6717741F4E0063E266 /* AsyncArrayCrashFix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AsyncArrayCrashFix-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4E91E5B17741F4E0063E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E91E6217741F4E0063E266 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4E91E5517741F4E0063E266 = {
+			isa = PBXGroup;
+			children = (
+				C4E91E6317741F4E0063E266 /* AsyncArrayCrashFix */,
+				C4E91E6017741F4E0063E266 /* Frameworks */,
+				C4E91E5F17741F4E0063E266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4E91E5F17741F4E0063E266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91E5E17741F4E0063E266 /* AsyncArrayCrashFix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4E91E6017741F4E0063E266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91E6117741F4E0063E266 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4E91E6317741F4E0063E266 /* AsyncArrayCrashFix */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91E6417741F4E0063E266 /* main.m */,
+				C4E91E6617741F4E0063E266 /* Supporting Files */,
+			);
+			path = AsyncArrayCrashFix;
+			sourceTree = "<group>";
+		};
+		C4E91E6617741F4E0063E266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E91E6717741F4E0063E266 /* AsyncArrayCrashFix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4E91E5D17741F4E0063E266 /* AsyncArrayCrashFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E91E6C17741F4E0063E266 /* Build configuration list for PBXNativeTarget "AsyncArrayCrashFix" */;
+			buildPhases = (
+				C4E91E5A17741F4E0063E266 /* Sources */,
+				C4E91E5B17741F4E0063E266 /* Frameworks */,
+				C4E91E5C17741F4E0063E266 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncArrayCrashFix;
+			productName = AsyncArrayCrashFix;
+			productReference = C4E91E5E17741F4E0063E266 /* AsyncArrayCrashFix */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4E91E5617741F4E0063E266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "巩 鹏军";
+			};
+			buildConfigurationList = C4E91E5917741F4E0063E266 /* Build configuration list for PBXProject "AsyncArrayCrashFix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4E91E5517741F4E0063E266;
+			productRefGroup = C4E91E5F17741F4E0063E266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4E91E5D17741F4E0063E266 /* AsyncArrayCrashFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4E91E5A17741F4E0063E266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E91E6517741F4E0063E266 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4E91E6A17741F4E0063E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4E91E6B17741F4E0063E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4E91E6D17741F4E0063E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncArrayCrashFix/AsyncArrayCrashFix-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4E91E6E17741F4E0063E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncArrayCrashFix/AsyncArrayCrashFix-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4E91E5917741F4E0063E266 /* Build configuration list for PBXProject "AsyncArrayCrashFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E91E6A17741F4E0063E266 /* Debug */,
+				C4E91E6B17741F4E0063E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E91E6C17741F4E0063E266 /* Build configuration list for PBXNativeTarget "AsyncArrayCrashFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E91E6D17741F4E0063E266 /* Debug */,
+				C4E91E6E17741F4E0063E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4E91E5617741F4E0063E266 /* Project object */;
+}
